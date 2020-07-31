@@ -13,4 +13,41 @@ h1{
 }
 h2{
   color: #6298BC;
+  font-size: 1.8em;
+  padding-top: 5px;
+}
+.container-left{
+  left: 0;
+  text-align: left;
+  padding-right: 60%;
+}
+.container-right{
+  left: 50%;
+  text-align: right;
+  padding-left: 60%;
+}
+.content{
+  padding: 3%;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+image{
+  width:10%;
+  height:10%;
+  background-size: cover;
+  background-position: center;
+  border: solid #ffffff;
+  border-radius: 5%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+.content span {
+   color: #2C7A7B;
+   font-size: 1.1em;
+   font-weight: bold;
+}
+.content p {
+   line-height: 1.6;
+   padding-top: 5px;
 }
